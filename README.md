@@ -2,4 +2,4 @@
 
 A lighting talk about writing GitHub pages with Jekyll
 
-Slides HTML created wit jdan/cleaver
+HTML created with <https://github.com/jdan/cleaver>
