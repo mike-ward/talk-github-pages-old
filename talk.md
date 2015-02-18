@@ -3,7 +3,7 @@ author:
   name: Mike Ward  
   twitter: mikeward_aa  
   url: http://mike-ward.net  
-output: basic.html  
+output: talk-github-pages.html  
 style: style.css  
 --
 
