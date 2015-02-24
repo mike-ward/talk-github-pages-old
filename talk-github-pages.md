@@ -81,6 +81,8 @@ Add, commit, and push your changes:
 
 Fire up a browser and go to http://username.github.io.
 
+<video src="flying.mp4" controls autoplay loop />
+
 --
 
 ### I can haz Project Pages?
@@ -91,7 +93,7 @@ The URL for a personal account's Project Page will be `http(s)://<username>.gith
 
 Project Pages differences:
 
-The gh-pages branch is used to build and publish Project Pages sites.
+The `gh-pages` branch is used to build and publish Project Pages sites.
 
 Project Pages sites are served under a subpath of the User Pages site: `username.github.io/projectname`
 
@@ -100,6 +102,8 @@ Project Pages sites are served under a subpath of the User Pages site: `username
 ### Blogging with Jekyll
 
 [Jekyll Now](https://github.com/barryclark/jekyll-now)
+
+![three amigos](giphy.gif)
 
 --
 
