@@ -77,9 +77,11 @@ Add, commit, and push your changes:
 
 ### Step 5
 
-...and you're done!
-
 Fire up a browser and go to http://username.github.io.
+
+---
+
+### And this is how you feel...
 
 <video src="flying.mp4" controls autoplay loop />
 
@@ -97,23 +99,29 @@ The `gh-pages` branch is used to build and publish Project Pages sites.
 
 Project Pages sites are served under a subpath of the User Pages site: `username.github.io/projectname`
 
---
-
-### Blogging with Jekyll
-
-[Jekyll Now](https://github.com/barryclark/jekyll-now)
-
-![three amigos](giphy.gif)
-
 -- 
+
+### Create branch
 
 ![project-pages-1.jpg](project-pages-1.jpg) 
 
 -- 
 
+### Push to GitHub
+
 ![project-pages-2.jpg](project-pages-2.jpg) 
 
 --
+
+### Feel Good (Again)
+
+![three amigos](giphy.gif)
+
+
+### Blogging with Jekyll
+
+[Jekyll Now](https://github.com/barryclark/jekyll-now)
+
 
 ### Custom URLs
 
