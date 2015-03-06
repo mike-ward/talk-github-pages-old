@@ -105,6 +105,10 @@ Project Pages sites are served under a subpath of the User Pages site: `username
 
 ![three amigos](giphy.gif)
 
+![project-pages-1.jpg](project-pages-1.jpg) 
+
+![project-pages-2.jpg](talk-github-pages/project-pages-2.jpg) 
+
 --
 
 ### Custom URLs
