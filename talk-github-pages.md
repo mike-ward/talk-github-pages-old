@@ -83,6 +83,8 @@ Fire up a browser and go to http://username.github.io.
 
 ### And this is how you feel...
 
+<p>&nbsp;</p>
+
 <video src="flying.mp4" controls autoplay loop />
 
 --
@@ -103,25 +105,37 @@ Project Pages sites are served under a subpath of the User Pages site: `username
 
 ### Create branch
 
+<p>&nbsp;</p>
+
 ![project-pages-1.jpg](project-pages-1.jpg) 
 
 -- 
 
 ### Push to GitHub
 
+<p>&nbsp;</p>
+
 ![project-pages-2.jpg](project-pages-2.jpg) 
+
+--
+
+Open up your browser...
 
 --
 
 ### Feel Good (Again)
 
+<p>&nbsp;</p>
+
 ![three amigos](giphy.gif)
 
+--
 
 ### Blogging with Jekyll
 
 [Jekyll Now](https://github.com/barryclark/jekyll-now)
 
+--
 
 ### Custom URLs
 
