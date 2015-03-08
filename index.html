@@ -448,7 +448,7 @@ pre { font-size: 100% }
   <div class="slide hidden" id="slide-9">
     <section class="slide-content"><h3 id="step-1">Step 1</h3>
 <h4 id="create-a-repository">Create a repository</h4>
-<p>Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub.</p>
+<p>Head over to GitHub and create a new repository named <strong>username.github.io</strong> on GitHub.</p>
 <p><em>If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.</em></p>
 </section>
   </div>
@@ -456,15 +456,15 @@ pre { font-size: 100% }
     <section class="slide-content"><h3 id="step-2">Step 2</h3>
 <h4 id="clone-the-repository">Clone the repository</h4>
 <p>Go to the folder where you want to store your project, and clone the new repository:</p>
-<pre><code>git clone https://github.com/username/username.github.io</code></pre>
+<pre><code>git clone 
+    https://github.com/username/username.github.io</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-11">
     <section class="slide-content"><h3 id="step-3">Step 3</h3>
-<h4 id="hello-world">Hello World</h4>
 <p>Enter the project folder and add an index.html file:</p>
 <pre><code>cd username.github.io
-echo &quot;Hello World&quot; &gt; index.html</code></pre>
+echo &quot;Hello GitHub Pages&quot; &gt; index.html</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-12">
@@ -479,66 +479,18 @@ git push -u origin master</code></pre>
   <div class="slide hidden" id="slide-13">
     <section class="slide-content"><h3 id="step-5">Step 5</h3>
 <p>Fire up a browser and go to <a href="http://username.github.io">http://username.github.io</a>.</p>
-</section>
-  </div>
-  <div class="slide hidden -
-" id="slide-9">
-    <section class="slide-content"><h3 id="and-this-is-how-you-feel-">And this is how you feel...</h3>
+<h3 id="and-this-is-how-you-feel-">And this is how you feel...</h3>
 <p>&nbsp;</p>
 
 <video src="flying.mp4" controls autoplay loop /></section>
   </div>
-<<<<<<< HEAD:talk-github-pages.html
-  <div class="slide hidden 
-" id="slide-10">
-=======
   <div class="slide hidden" id="slide-14">
->>>>>>> WIP:index.html
     <section class="slide-content"><h3 id="i-can-haz-project-pages-">I can haz Project Pages?</h3>
-<p>Same repository as our project.</p>
-<p>Use <strong>gh-pages</strong> branch (isolated)</p>
+<p>Same repository as your project.</p>
+<p>Create <strong>gh-pages</strong> branch (isolated)</p>
 <p>URL === <code>http(s)://&lt;username&gt;.github.io/&lt;projectname&gt;</code></p>
 </section>
   </div>
-<<<<<<< HEAD:talk-github-pages.html
-  <div class="slide hidden  
-" id="slide-11">
-    <section class="slide-content"><h3 id="create-branch">Create branch</h3>
-<p>&nbsp;</p>
-
-<p><img src="project-pages-1.jpg" alt="project-pages-1.jpg"></p>
-</section>
-  </div>
-  <div class="slide hidden  
-" id="slide-12">
-    <section class="slide-content"><h3 id="push-to-github">Push to GitHub</h3>
-<p>&nbsp;</p>
-
-<p><img src="project-pages-2.jpg" alt="project-pages-2.jpg"></p>
-</section>
-  </div>
-  <div class="slide hidden 
-" id="slide-13">
-    <section class="slide-content"><p>Open up your browser...</p>
-</section>
-  </div>
-  <div class="slide hidden 
-" id="slide-14">
-    <section class="slide-content"><h3 id="feel-good-again-">Feel Good (Again)</h3>
-<p>&nbsp;</p>
-
-<p><img src="giphy.gif" alt="three amigos"></p>
-</section>
-  </div>
-  <div class="slide hidden 
-" id="slide-15">
-    <section class="slide-content"><h3 id="blogging-with-jekyll">Blogging with Jekyll</h3>
-<p><a href="https://github.com/barryclark/jekyll-now">Jekyll Now</a></p>
-</section>
-  </div>
-  <div class="slide hidden 
-" id="slide-16">
-=======
   <div class="slide hidden" id="slide-15">
     <section class="slide-content"><h3 id="blogging">Blogging</h3>
 <p>Use a static site generator</p>
@@ -549,6 +501,7 @@ git push -u origin master</code></pre>
   <div class="slide hidden" id="slide-16">
     <section class="slide-content"><h3 id="jekyll">Jekyll</h3>
 <p>Behind the scenes, GitHub Pages uses Jekyll</p>
+<p>Jekyll is a static website generator</p>
 <p>Jekyll is <strong>Blog Aware</strong></p>
 </section>
   </div>
@@ -559,10 +512,9 @@ git push -u origin master</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-18">
->>>>>>> WIP:index.html
     <section class="slide-content"><h3 id="custom-urls">Custom URLs</h3>
 <p>Create a CNAME file that contains the URL</p>
-<p>Subdomain (recommended), configure a CNAME record.</p>
+<p>Subdomain, configure a CNAME record.</p>
 <p>Apex domain, configure an <code>ALIAS</code>, <code>ANAME</code>, or <code>A</code> records.</p>
 </section>
   </div>

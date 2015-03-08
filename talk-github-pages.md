@@ -77,12 +77,10 @@ Go to the folder where you want to store your project, and clone the new reposit
 --
 ### Step 3
 
-#### Hello World
-
 Enter the project folder and add an index.html file:
 
     cd username.github.io
-    echo "Hello World" > index.html
+    echo "Hello GitHub Pages" > index.html
 
 --
 ### Step 4
@@ -101,22 +99,17 @@ Add, commit, and push your changes:
 
 Fire up a browser and go to http://username.github.io.
 
-<<<<<<< HEAD
----
 
 ### And this is how you feel...
 
 <p>&nbsp;</p>
-=======
-and feel good...
->>>>>>> WIP
 
 <video src="flying.mp4" controls autoplay loop />
 
 --
 ### I can haz Project Pages?
 
-Same repository as our project.
+Same repository as your project.
 
 Create **gh-pages** branch (isolated)
 
@@ -127,42 +120,16 @@ URL === `http(s)://<username>.github.io/<projectname>`
 
 Use a static site generator
 
-<<<<<<< HEAD
--- 
-
-### Create branch
-
-<p>&nbsp;</p>
-
-![project-pages-1.jpg](project-pages-1.jpg) 
-
--- 
-
-### Push to GitHub
-
-<p>&nbsp;</p>
-
-![project-pages-2.jpg](project-pages-2.jpg) 
-
---
-
-Open up your browser...
-
---
-
-### Feel Good (Again)
-
-<p>&nbsp;</p>
-=======
 or ...
 
 Let GitHub do it for you
 
 --
 ### Jekyll
->>>>>>> WIP
 
 Behind the scenes, GitHub Pages uses Jekyll
+
+Jekyll is a static website generator
 
 Jekyll is **Blog Aware**
 
@@ -173,16 +140,7 @@ Easy way: [Jekyll Now](https://github.com/barryclark/jekyll-now)
 
 Lots of public templates available
 
-<<<<<<< HEAD
-### Blogging with Jekyll
-
-[Jekyll Now](https://github.com/barryclark/jekyll-now)
-
 --
-
-=======
---
->>>>>>> WIP
 ### Custom URLs
 
 Create a CNAME file that contains the URL
