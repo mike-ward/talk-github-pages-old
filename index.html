@@ -400,44 +400,66 @@ pre { font-size: 100% }
     <div class="progress-bar"></div>
   </div>
 
-  <div class="slide " id="slide-1">
+  <div class="slide" id="slide-1">
     <section class="slide-content"><h1 id="github-pages">GitHub Pages</h1>
 <h2 id="websites-for-you-and-your-projects">Websites for you and your projects</h2>
 </section>
   </div>
-  <div class="slide hidden " id="slide-2">
+  <div class="slide hidden" id="slide-2">
     <section class="slide-content"><h3 id="what-are-github-pages-">What are GitHub Pages?</h3>
 <p>GitHub Pages are public web pages hosted and published through the GitHub site.</p>
 <p>Pages consist of <em>static</em> pages and assets only</p>
 <p>Pages can be generated using the <a href="https://help.github.com/articles/creating-pages-with-the-automatic-generator">Automatic Page Generator</a>, with a static site generator or by hand.</p>
 </section>
   </div>
-  <div class="slide hidden " id="slide-3">
+  <div class="slide hidden" id="slide-3">
     <section class="slide-content"><h3 id="5-reasons-to-use-github-pages">5 Reasons to use GitHub Pages</h3>
-<ol>
-<li>It&#39;s fast (really fast)</li>
-<li>It&#39;s simple</li>
-<li>Automatic deployment</li>
-<li>Uses Git</li>
-<li>No special tooling/databases etc.</li>
-</ol>
 </section>
   </div>
-  <div class="slide hidden " id="slide-4">
+  <div class="slide hidden" id="slide-4">
+    <section class="slide-content"><h3 id="1-it-s-fast-really-fast-">1. It&#39;s fast (really fast)</h3>
+<p>Pages are static HTML</p>
+<p>GitHub infrastructure is fast</p>
+<p>Caching</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-5">
+    <section class="slide-content"><h3 id="2-use-your-own-tools">2. Use your own tools</h3>
+<p>No additional libraries or frameworks</p>
+<p>Use any static site generator</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-6">
+    <section class="slide-content"><h3 id="3-automatic-deployment">3. Automatic deployment</h3>
+<p>Updating the Repository === Publishing</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-7">
+    <section class="slide-content"><h3 id="4-uses-git">4. Uses Git</h3>
+<p>Gentle introduction to Git and GitHub</p>
+<p>All the other advantages of using GitHub</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-8">
+    <section class="slide-content"><h3 id="5-no-ftp">5. No FTP</h3>
+<p>git push</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-9">
     <section class="slide-content"><h3 id="step-1">Step 1</h3>
 <h4 id="create-a-repository">Create a repository</h4>
 <p>Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub.</p>
 <p><em>If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.</em></p>
 </section>
   </div>
-  <div class="slide hidden " id="slide-5">
+  <div class="slide hidden" id="slide-10">
     <section class="slide-content"><h3 id="step-2">Step 2</h3>
 <h4 id="clone-the-repository">Clone the repository</h4>
 <p>Go to the folder where you want to store your project, and clone the new repository:</p>
 <pre><code>git clone https://github.com/username/username.github.io</code></pre>
 </section>
   </div>
-  <div class="slide hidden " id="slide-6">
+  <div class="slide hidden" id="slide-11">
     <section class="slide-content"><h3 id="step-3">Step 3</h3>
 <h4 id="hello-world">Hello World</h4>
 <p>Enter the project folder and add an index.html file:</p>
@@ -445,7 +467,7 @@ pre { font-size: 100% }
 echo &quot;Hello World&quot; &gt; index.html</code></pre>
 </section>
   </div>
-  <div class="slide hidden " id="slide-7">
+  <div class="slide hidden" id="slide-12">
     <section class="slide-content"><h3 id="step-4">Step 4</h3>
 <h4 id="push-it">Push it</h4>
 <p>Add, commit, and push your changes:</p>
@@ -454,69 +476,102 @@ git commit -m &quot;Initial commit&quot;
 git push -u origin master</code></pre>
 </section>
   </div>
-  <div class="slide hidden " id="slide-8">
+  <div class="slide hidden" id="slide-13">
     <section class="slide-content"><h3 id="step-5">Step 5</h3>
 <p>Fire up a browser and go to <a href="http://username.github.io">http://username.github.io</a>.</p>
 </section>
   </div>
-  <div class="slide hidden -" id="slide-9">
+  <div class="slide hidden -
+" id="slide-9">
     <section class="slide-content"><h3 id="and-this-is-how-you-feel-">And this is how you feel...</h3>
 <p>&nbsp;</p>
 
 <video src="flying.mp4" controls autoplay loop /></section>
   </div>
-  <div class="slide hidden " id="slide-10">
+<<<<<<< HEAD:talk-github-pages.html
+  <div class="slide hidden 
+" id="slide-10">
+=======
+  <div class="slide hidden" id="slide-14">
+>>>>>>> WIP:index.html
     <section class="slide-content"><h3 id="i-can-haz-project-pages-">I can haz Project Pages?</h3>
-<p>Project Pages are kept in the same repository as their project.</p>
-<p>The URL for a personal account&#39;s Project Page will be <code>http(s)://&lt;username&gt;.github.io/&lt;projectname&gt;</code></p>
-<p>Project Pages differences:</p>
-<p>The <code>gh-pages</code> branch is used to build and publish Project Pages sites.</p>
-<p>Project Pages sites are served under a subpath of the User Pages site: <code>username.github.io/projectname</code></p>
+<p>Same repository as our project.</p>
+<p>Use <strong>gh-pages</strong> branch (isolated)</p>
+<p>URL === <code>http(s)://&lt;username&gt;.github.io/&lt;projectname&gt;</code></p>
 </section>
   </div>
-  <div class="slide hidden  " id="slide-11">
+<<<<<<< HEAD:talk-github-pages.html
+  <div class="slide hidden  
+" id="slide-11">
     <section class="slide-content"><h3 id="create-branch">Create branch</h3>
 <p>&nbsp;</p>
 
 <p><img src="project-pages-1.jpg" alt="project-pages-1.jpg"></p>
 </section>
   </div>
-  <div class="slide hidden  " id="slide-12">
+  <div class="slide hidden  
+" id="slide-12">
     <section class="slide-content"><h3 id="push-to-github">Push to GitHub</h3>
 <p>&nbsp;</p>
 
 <p><img src="project-pages-2.jpg" alt="project-pages-2.jpg"></p>
 </section>
   </div>
-  <div class="slide hidden " id="slide-13">
+  <div class="slide hidden 
+" id="slide-13">
     <section class="slide-content"><p>Open up your browser...</p>
 </section>
   </div>
-  <div class="slide hidden " id="slide-14">
+  <div class="slide hidden 
+" id="slide-14">
     <section class="slide-content"><h3 id="feel-good-again-">Feel Good (Again)</h3>
 <p>&nbsp;</p>
 
 <p><img src="giphy.gif" alt="three amigos"></p>
 </section>
   </div>
-  <div class="slide hidden " id="slide-15">
+  <div class="slide hidden 
+" id="slide-15">
     <section class="slide-content"><h3 id="blogging-with-jekyll">Blogging with Jekyll</h3>
 <p><a href="https://github.com/barryclark/jekyll-now">Jekyll Now</a></p>
 </section>
   </div>
-  <div class="slide hidden " id="slide-16">
-    <section class="slide-content"><h3 id="custom-urls">Custom URLs</h3>
-<p>Just create a file named CNAME and include your URL.</p>
-<p>After you&#39;ve created and committed your CNAME file on GitHub, do one of the following with your DNS provider:</p>
-<ol>
-<li><p>If your custom domain is a subdomain (recommended), configure a CNAME record.</p>
-</li>
-<li><p>If your custom domain is an apex domain, configure an <code>ALIAS</code>, <code>ANAME</code>, or <code>A</code> records.</p>
-</li>
-</ol>
+  <div class="slide hidden 
+" id="slide-16">
+=======
+  <div class="slide hidden" id="slide-15">
+    <section class="slide-content"><h3 id="blogging">Blogging</h3>
+<p>Use a static site generator</p>
+<p>or ...</p>
+<p>Let GitHub do it for you</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-16">
+    <section class="slide-content"><h3 id="jekyll">Jekyll</h3>
+<p>Behind the scenes, GitHub Pages uses Jekyll</p>
+<p>Jekyll is <strong>Blog Aware</strong></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-17">
+    <section class="slide-content"><h3 id="getting-started-with-jekyll">Getting Started with Jekyll</h3>
+<p>Easy way: <a href="https://github.com/barryclark/jekyll-now">Jekyll Now</a></p>
+<p>Lots of public templates available</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-18">
+>>>>>>> WIP:index.html
+    <section class="slide-content"><h3 id="custom-urls">Custom URLs</h3>
+<p>Create a CNAME file that contains the URL</p>
+<p>Subdomain (recommended), configure a CNAME record.</p>
+<p>Apex domain, configure an <code>ALIAS</code>, <code>ANAME</code>, or <code>A</code> records.</p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-19">
+    <section class="slide-content"><h3 id="feel-good-again-">Feel Good (Again)</h3>
+<p><img src="giphy.gif" alt="three amigos"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-20">
     <section class="slide-content"><div class="author">
   <h1 class="name">Mike Ward</h1>
     <h3 class="twitter">
